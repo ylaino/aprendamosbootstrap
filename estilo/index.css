@@ -1,0 +1,104 @@
+footer {
+  /* -webkit-box-shadow: 0px -3px 4px 1px rgba(0,0,0,0.55); 
+   box-shadow: 0px -3px 4px 1px rgba(38, 39, 38, 0.55);*/
+   background-color:#724370;
+   color: #81F2D0;
+   font-weight: 600;
+   margin-top: 2rem;
+   font-size: 1rem;
+   }
+ 
+ .redes {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin-right: 2.5rem;
+   padding-top: 1.5rem;
+   }
+ 
+ .redes__link {
+   text-align: center;
+   padding: 1.5rem 0;
+   margin-left: 3rem;
+ }
+ 
+ 
+ .fab {
+   text-align: center;
+   margin-left: 2rem;
+   font-size: 350%;
+   background: linear-gradient(#cfcf20, #7FE8E3);
+   -webkit-background-clip: text;
+   color: transparent;  
+   
+ }
+ 
+ .fab:hover {
+   background: linear-gradient(#f6f6f4, #e87fda);
+   -webkit-background-clip: text;
+   color: transparent; 
+ }
+ 
+ .footer__bottom {text-align: right;
+ margin-right: 1.5rem;
+ padding-bottom: 2rem;
+ }
+
+ 
+
+
+ .contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  width: 100%;
+  margin-top: 5%;
+  }
+  
+  .contacto__formulario {
+    background-color: white;
+  }
+  
+  .boton {
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .map {
+    height: 22rem;
+    width: 40rem;
+    margin-left: 3rem;}
+  
+  .contacto__bottom {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    }
+  
+  .imagen__corazon {
+    width: 40rem;
+    margin-left: 2rem;
+   }
+
+   @media (max-width:768px) 
+    .contacto__bottom  {flex-direction: column;
+  }
+  
+
+.card-img-top {
+  max-width: 80%;
+}
+
+  #imagenProfe {
+max-width: 50%;
+  }
